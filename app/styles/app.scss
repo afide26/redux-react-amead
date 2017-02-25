@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import 'base/variables';
+
+// Foundation
+@import 'base/foundation-settings';
+@import 'foundation';
+@include foundation-everything;
+// Components
+
+body{
+  font-family: 'Lato', 'Helvetica', 'Arial',sans-serif;
+}
