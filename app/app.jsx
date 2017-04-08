@@ -7,7 +7,9 @@ var {Route, Router, IndexRoute, hashHistory}  = require('react-router');
 require('style!css!sass!applicationStyles');
 $(document).foundation();
 
-ReactDOM.render(
-  <p>Boilerplate 3 Project</p>,
-  document.getElementById('app')
-);
+// ReactDOM.render(
+//   <p>Boilerplate 3 Project with Redux</p>,
+//   document.getElementById('app')
+// );
+
+require('./redux-example.jsx')
